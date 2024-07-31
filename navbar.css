@@ -1,0 +1,218 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+.zohaib {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  box-shadow: 0px 3px 4px 1px;
+  position: sticky;
+  text-transform: uppercase;
+  top: 0;
+  padding: 8px 15px;
+}
+.zohaib ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  font-family: sans-serif;
+  padding: 12px 24px;
+  gap: 40px;
+}
+.zohaib ul a {
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+.zohaib ul a:hover {
+  color: black;
+  padding: 15px 20px;
+  background-color: rgb(242, 239, 239);
+}
+
+.nana {
+  text-align: center;
+  background-image: url(/images/home.jpg);
+  align-content: flex-end;
+  height: 600px;
+  color: white;
+}
+h2 {
+  text-align: center;
+  letter-spacing: 3px;
+  margin: 40px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.ss {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.www {
+  text-align: center;
+  padding: 20px;
+  margin: 0px 300px;
+  font-family: sans-serif;
+}
+.qq {
+  display: flex;
+  margin-left: 380px;
+  gap: 200px;
+  list-style-type: none;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.pic {
+  display: flex;
+  margin-left: 350px;
+  gap: 30px;
+}
+.haji {
+  background-color: black;
+  height: 750px;
+}
+.haji h1 {
+  margin-top: 50px;
+  text-align: center;
+
+  color: white;
+}
+
+.haji p {
+  text-align: center;
+  font-weight: 200px;
+  font-family: lato "san serif";
+  color: rgb(194, 191, 191);
+}
+
+.main {
+  display: flex;
+  margin-left: 275px;
+  height: 400px;
+  width: 800px;
+  margin-top: 40px;
+  gap: 20px;
+}
+.new {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.new div > img {
+  width: 100%;
+  background-size: contain;
+}
+
+.new .cardinfo {
+  padding: 10px;
+}
+.new .cardinfo button {
+  padding: 10px 20px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  border: 0;
+}
+.new .cardinfo > button:hover {
+  background-color: grey;
+}
+
+.cardinfo {
+  flex-direction: column;
+}
+.cardinfo h4 {
+  color: black;
+  margin-top: 20px;
+}
+.cardinfo p {
+  text-align: left;
+  color: rgb(95, 94, 94);
+  margin-top: 10px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.contact {
+  text-align: center;
+  margin-top: 90px;
+  font-family: sans-serif;
+  font-weight: 400px;
+}
+.fan {
+  text-align: center;
+  margin-top: 30px;
+  color: grey;
+  font-family: "Courier New", Courier, monospace;
+}
+.section1 {
+  display: flex;
+  margin-left: 300px;
+  gap: 200px;
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+.number {
+  padding: 10px 10px;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+.send {
+  padding: 6px 10px;
+  color: white;
+  background-color: black;
+  margin-top: 20px;
+  margin-right: 10px;
+  float: right;
+  cursor: pointer;
+  border: 0;
+}
+.send:hover {
+  color: black;
+  background-color: rgb(215, 215, 215);
+}
+.w3 {
+  text-align: center;
+  margin: 70px 70px;
+}
+.sa {
+  width: 500px;
+}
+
+.sa input {
+  padding: 10px 15px;
+}
+.sa > .input50 {
+  width: 42%;
+}
+.sa > .input100 {
+  width: 91.5%;
+  margin-top: 10px;
+}
+
+.sold {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sold p {
+  background-color: white;
+  border: 1px solid rgb(202, 202, 202);
+  width: 800px;
+  text-align: left;
+  padding: 10px;
+}
+.outm {
+  background-color: red;
+  color: white;
+  margin-left: 16px;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+  display: inline-block;
+}
+.map {
+  width: 100vw;
+}
